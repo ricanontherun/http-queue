@@ -15,3 +15,5 @@ queueHttpRequest({
 ```
 
 The internal queue is scoped to the module and is therefore shared across your entire application.
+
+By default, the concurrency is set to 15 requests. This can be overridden via the HTTP_QUEUE_CONCURRENCY environment variable.
