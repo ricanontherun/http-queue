@@ -1,0 +1,20 @@
+{
+  "name": "http-queue",
+  "version": "1.0.0",
+  "description": "A package capable of controlling the maximum number of concurrent HTTP requests made within a program.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http",
+    "queue",
+    "concurrency"
+  ],
+  "author": "Christian Roman",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "request": "^2.87.0"
+  }
+}
